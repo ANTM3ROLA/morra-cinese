@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@400;900&display=swap');
+
+body{
+    background-color: #A18C49;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1{
+    
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-size: 80px ;
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #6D5F30;
+    border: 1px solid black;
+}
+#carta  {
+    width: 150px;
+    height: 150px;
+    background-color: #E9CB69;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    transition-duration: 0.4s;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+
+}
+button{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#sasso {
+    width: 150px;
+    height: 150px;
+    background-color:#E9CB69;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+   
+}
+
+#forbici {
+    width: 150px;
+    height: 150px;
+    background-color: #E9CB69;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
+
+#carta:hover {
+    background-color: #6D5F30;
+    color: rgb(255, 255, 255);
+  }
+
+#sasso:hover {
+    background-color: #6D5F30;
+    color: rgb(255, 255, 255);
+}
+
+#forbici:hover {
+    background-color: #6D5F30;
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    h1{
+        font-size: 40px;
+        padding-top: 5px ;
+       
+    }
+    h3{
+        padding-top: 10px;
+        padding-bottom: 0;
+        font-size: 30px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    #carta  {
+        width: 80px;
+        height: 80px;
+        font-size: 10px;
+    }
+    #sasso {
+        width: 80px;
+        height: 80px;
+        font-size: 10px;
+    }
+    #forbici {
+        width: 80px;
+        height: 80px;
+        font-size: 10px;
+    }
