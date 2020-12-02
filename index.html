@@ -21,6 +21,12 @@
     <h3>Vittorie utente: <span id="vgiocatore"></span></h3>
     <h3>Vittorie computer: <span id="vcomputer"></span></h3>
 
+    <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('/sw.js')
+        }
+    </script>
+
     
 </body>
 </html>
