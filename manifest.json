@@ -3,27 +3,27 @@
     "background_color": "#A18C49",
     "display": "standalone",
     "scope": "/morra-cinese/",
-    "start_url": "/",
+    "start_url": "https://antm3rola.github.io/morra-cinese/",
     "app_name": "morra-cinese",
     "short_name": "morra cinese",
     "icons": [
         {
-            "src": "/icon-192x192.png",
+            "src": "/morra-cinese/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/icon-256x256.png",
+            "src": "/morra-cinese/icon-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "/icon-384x384.png",
+            "src": "/morra-cinese/icon-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
         },
         {
-            "src": "/icon-512x512.png",
+            "src": "/morra-cinese/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
